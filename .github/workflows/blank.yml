@@ -1,8 +1,8 @@
 name:First-workflow
-on:workflow_dispatch
+on: workflow_dispatch
  jobs:
    first-job:
-   runs-on: ubuntu-slim
+   runs-on: ubuntu-latest
    steps:
       -name: print hello
        run: echo"Hello world"
